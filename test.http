@@ -1,0 +1,36 @@
+GET http://127.0.0.1:6000/set?key=k1&value=v0
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:6000/get?key=k1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:6001/set?key=k1&value=v1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:6001/get?key=k1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:6002/set?key=k1&value=v2
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:6002/get?key=k1
+Accept: application/json
+
+###
+
+
+
+GET http://127.0.0.1:6000/join
+Accept: application/json
+
+###
